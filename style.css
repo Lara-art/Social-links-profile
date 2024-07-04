@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --color-White: hsl(0, 0%, 100%);
+    --color-Grey: hsl(0, 0%, 20%);
+    --color-Dark-Grey: hsl(0, 0%, 12%);
+    --color-Off-Black: hsl(0, 0%, 8%);
+    --color-Green: hsl(75, 94%, 57%);
+    --color-Blue: hsl(228, 45%, 44%);
+    --radius: 10px;
+    --circle: 50px;
+}
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+body {
+    height: 100vh;
+    font-family: "Inter", "sans-serif";
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    background-color: var(--color-Off-Black);
+    color: var(--color-White);
+    place-content: center;
+    max-width: 1440px;
+    margin: auto;
+    padding: 2rem;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--color-Green);
+    margin-bottom: 20px;
+}
+
+a {
+    color: var(--color-blue);
+}
+
+button {
+    display: block;
+    cursor: pointer;
+    margin-top: 15px;
+    padding: 10px;
+    font-weight: 600;
+    border: 0px solid;
+    color: var(--color-White);
+    border-radius: var(--radius);
+    background-color: var(--color-Grey);
+
+    &:hover {
+        background-color: var(--color-Green);
+        color: var(--color-Grey);
+    }
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: auto;
+    padding: 40px;
+    border-radius: var(--radius);
+    background-color: var(--color-Dark-Grey);
+
+    & img {
+        width: 70px;
+        border-radius: var(--circle);
+    }
+}
+
+.attribution {
+    margin-top: 200px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.my08 {
+    margin-top: 08px;
+    margin-bottom: 08px;
+}
