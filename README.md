@@ -17,7 +17,7 @@ This is my solution to the <a href="https://www.frontendmentor.io/challenges/soc
 ### 🔗 Links
 
 - Solution URL: [Github](https://github.com/Lara-art/Social-links-profile)
-- Live Site URL: [Deployed](https://lara-art.github.io/QR-code-component/)
+- Live Site URL: [Deployed](https://lara-art.github.io/Social-links-profile/)
 
 ## My process
 
